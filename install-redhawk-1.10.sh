@@ -4,7 +4,7 @@ wget http://download.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch
 sudo yum install -y --nogpgcheck epel-release-*.noarch.rpm
 sudo yum install -y omniORB-servers log4cxx-devel omniORB-devel xsd
 sudo yum install -y libuuid-devel boost-devel autoconf automake libtool expat-devel java-devel python-devel numpy PyQt4
-wget https://sourceforge.net/projects/redhawksdr/files/redhawk/1.10.0/el6/x86_64/redhawk-yum-1.10.0-10-el6-x86_64.tar.gz
+wget http://sourceforge.net/projects/redhawksdr/files/redhawk/1.10.0/el6/x86_64/redhawk-yum-1.10.0-10-el6-x86_64.tar.gz
 tar xzf redhawk-yum-*.tar.gz
 cd redhawk-1.10*
 sudo yum install -y --nogpgcheck *.rpm
