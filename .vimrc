@@ -6,3 +6,5 @@ set smarttab
 
 set number
 syntax on
+
+match ErrorMsg '\%>80v.\+'
