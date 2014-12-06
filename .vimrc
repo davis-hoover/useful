@@ -13,4 +13,5 @@ set smartindent
 set number
 syntax on
 set lines=50 columns=84
+set hlsearch
 
