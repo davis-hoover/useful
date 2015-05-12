@@ -12,6 +12,7 @@ match ErrorMsg '\%>80v.\+'
 set smartindent
 set number
 syntax on
-set lines=50 columns=84
+#set lines=50 columns=84
+set lines=50 columns=169
 set hlsearch
 
